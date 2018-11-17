@@ -1,0 +1,416 @@
+dl320@soetcse:~$ mkir calendarpalanner
+
+Command 'mkir' not found, did you mean:
+
+  command 'mdir' from deb mtools
+  command 'mkid' from deb id-utils
+  command 'mkdir' from deb coreutils
+
+Try: apt install <deb name>
+
+dl320@soetcse:~$ mkdir calendarpalanner
+dl320@soetcse:~$ cd  calendarpalanner
+dl320@soetcse:~/calendarpalanner$ subl
+dl320@soetcse:~/calendarpalanner$ pip inatall weather-api
+
+Command 'pip' not found, but can be installed with:
+
+apt install python-pip
+Please ask your administrator.
+
+dl320@soetcse:~/calendarpalanner$ pip install weather-api
+
+Command 'pip' not found, but can be installed with:
+
+apt install python-pip
+Please ask your administrator.
+
+dl320@soetcse:~/calendarpalanner$ pip3 install weather-api
+Collecting weather-api
+  Downloading https://files.pythonhosted.org/packages/14/0d/10862f00a935ef25b100f31bb5cbc252990afff4a71e4ded6004a74118ff/weather_api-1.0.6-py2.py3-none-any.whl
+Collecting requests (from weather-api)
+  Downloading https://files.pythonhosted.org/packages/ff/17/5cbb026005115301a8fb2f9b0e3e8d32313142fe8b617070e7baad20554f/requests-2.20.1-py2.py3-none-any.whl (57kB)
+    100% |████████████████████████████████| 61kB 152kB/s 
+Collecting chardet<3.1.0,>=3.0.2 (from requests->weather-api)
+  Downloading https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl (133kB)
+    100% |████████████████████████████████| 143kB 375kB/s 
+Collecting idna<2.8,>=2.5 (from requests->weather-api)
+  Downloading https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl (58kB)
+    100% |████████████████████████████████| 61kB 1.2MB/s 
+Collecting certifi>=2017.4.17 (from requests->weather-api)
+  Downloading https://files.pythonhosted.org/packages/56/9d/1d02dd80bc4cd955f98980f28c5ee2200e1209292d5f9e9cc8d030d18655/certifi-2018.10.15-py2.py3-none-any.whl (146kB)
+    100% |████████████████████████████████| 153kB 1.1MB/s 
+Collecting urllib3<1.25,>=1.21.1 (from requests->weather-api)
+  Downloading https://files.pythonhosted.org/packages/62/00/ee1d7de624db8ba7090d1226aebefab96a2c71cd5cfa7629d6ad3f61b79e/urllib3-1.24.1-py2.py3-none-any.whl (118kB)
+    100% |████████████████████████████████| 122kB 898kB/s 
+Installing collected packages: chardet, idna, certifi, urllib3, requests, weather-api
+Successfully installed certifi-2018.10.15 chardet-3.0.4 idna-2.7 requests-2.20.1 urllib3-1.24.1 weather-api-1.0.6
+dl320@soetcse:~/calendarpalanner$ pyhton3 bangalore.py
+
+Command 'pyhton3' not found, did you mean:
+
+  command 'python3' from deb python3-minimal
+
+Try: apt install <deb name>
+
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Mostly Cloudy
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Traceback (most recent call last):
+  File "bangalore.py", line 6, in <module>
+    weather = Weather(unit=Unit.CELSIUS)
+NameError: name 'Weather' is not defined
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Thunderstorms
+17 Nov 2018
+27
+25
+Thunderstorms
+18 Nov 2018
+28
+25
+Thunderstorms
+19 Nov 2018
+27
+25
+Thunderstorms
+20 Nov 2018
+26
+25
+Thunderstorms
+21 Nov 2018
+26
+25
+Scattered Thunderstorms
+22 Nov 2018
+26
+24
+Partly Cloudy
+23 Nov 2018
+28
+26
+Sunny
+24 Nov 2018
+27
+25
+Sunny
+25 Nov 2018
+27
+23
+Mostly Sunny
+26 Nov 2018
+27
+23
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+17 Nov 2018
+maximum temp 28 C
+minimum temp 18 C
+Cloudy
+18 Nov 2018
+maximum temp 29 C
+minimum temp 19 C
+Scattered Thunderstorms
+19 Nov 2018
+maximum temp 28 C
+minimum temp 19 C
+Cloudy
+20 Nov 2018
+maximum temp 28 C
+minimum temp 18 C
+Cloudy
+21 Nov 2018
+maximum temp 23 C
+minimum temp 17 C
+Scattered Showers
+22 Nov 2018
+maximum temp 23 C
+minimum temp 17 C
+Cloudy
+23 Nov 2018
+maximum temp 25 C
+minimum temp 18 C
+Mostly Cloudy
+24 Nov 2018
+maximum temp 26 C
+minimum temp 16 C
+Partly Cloudy
+25 Nov 2018
+maximum temp 27 C
+minimum temp 16 C
+Partly Cloudy
+26 Nov 2018
+maximum temp 26 C
+minimum temp 15 C
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+                                  2018
+
+      January                   February                   March
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+ 1  2  3  4  5  6  7                1  2  3  4                1  2  3  4
+ 8  9 10 11 12 13 14       5  6  7  8  9 10 11       5  6  7  8  9 10 11
+15 16 17 18 19 20 21      12 13 14 15 16 17 18      12 13 14 15 16 17 18
+22 23 24 25 26 27 28      19 20 21 22 23 24 25      19 20 21 22 23 24 25
+29 30 31                  26 27 28                  26 27 28 29 30 31
+
+       April                      May                       June
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+                   1          1  2  3  4  5  6                   1  2  3
+ 2  3  4  5  6  7  8       7  8  9 10 11 12 13       4  5  6  7  8  9 10
+ 9 10 11 12 13 14 15      14 15 16 17 18 19 20      11 12 13 14 15 16 17
+16 17 18 19 20 21 22      21 22 23 24 25 26 27      18 19 20 21 22 23 24
+23 24 25 26 27 28 29      28 29 30 31               25 26 27 28 29 30
+30
+
+        July                     August                  September
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+                   1             1  2  3  4  5                      1  2
+ 2  3  4  5  6  7  8       6  7  8  9 10 11 12       3  4  5  6  7  8  9
+ 9 10 11 12 13 14 15      13 14 15 16 17 18 19      10 11 12 13 14 15 16
+16 17 18 19 20 21 22      20 21 22 23 24 25 26      17 18 19 20 21 22 23
+23 24 25 26 27 28 29      27 28 29 30 31            24 25 26 27 28 29 30
+30 31
+
+      October                   November                  December
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+ 1  2  3  4  5  6  7                1  2  3  4                      1  2
+ 8  9 10 11 12 13 14       5  6  7  8  9 10 11       3  4  5  6  7  8  9
+15 16 17 18 19 20 21      12 13 14 15 16 17 18      10 11 12 13 14 15 16
+22 23 24 25 26 27 28      19 20 21 22 23 24 25      17 18 19 20 21 22 23
+29 30 31                  26 27 28 29 30            24 25 26 27 28 29 30
+                                                    31
+
+dl320@soetcse:~/calendarpalanner$ pyhton3 bangalore.py
+
+Command 'pyhton3' not found, did you mean:
+
+  command 'python3' from deb python3-minimal
+
+Try: apt install <deb name>
+
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+                                  2019
+
+      January                   February                   March
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+    1  2  3  4  5  6                   1  2  3                   1  2  3
+ 7  8  9 10 11 12 13       4  5  6  7  8  9 10       4  5  6  7  8  9 10
+14 15 16 17 18 19 20      11 12 13 14 15 16 17      11 12 13 14 15 16 17
+21 22 23 24 25 26 27      18 19 20 21 22 23 24      18 19 20 21 22 23 24
+28 29 30 31               25 26 27 28               25 26 27 28 29 30 31
+
+       April                      May                       June
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+ 1  2  3  4  5  6  7             1  2  3  4  5                      1  2
+ 8  9 10 11 12 13 14       6  7  8  9 10 11 12       3  4  5  6  7  8  9
+15 16 17 18 19 20 21      13 14 15 16 17 18 19      10 11 12 13 14 15 16
+22 23 24 25 26 27 28      20 21 22 23 24 25 26      17 18 19 20 21 22 23
+29 30                     27 28 29 30 31            24 25 26 27 28 29 30
+
+        July                     August                  September
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+ 1  2  3  4  5  6  7                1  2  3  4                         1
+ 8  9 10 11 12 13 14       5  6  7  8  9 10 11       2  3  4  5  6  7  8
+15 16 17 18 19 20 21      12 13 14 15 16 17 18       9 10 11 12 13 14 15
+22 23 24 25 26 27 28      19 20 21 22 23 24 25      16 17 18 19 20 21 22
+29 30 31                  26 27 28 29 30 31         23 24 25 26 27 28 29
+                                                    30
+
+      October                   November                  December
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+    1  2  3  4  5  6                   1  2  3                         1
+ 7  8  9 10 11 12 13       4  5  6  7  8  9 10       2  3  4  5  6  7  8
+14 15 16 17 18 19 20      11 12 13 14 15 16 17       9 10 11 12 13 14 15
+21 22 23 24 25 26 27      18 19 20 21 22 23 24      16 17 18 19 20 21 22
+28 29 30 31               25 26 27 28 29 30         23 24 25 26 27 28 29
+                                                    30 31
+
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+                                  2019
+
+      January                   February                   March
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+    1  2  3  4  5  6                   1  2  3                   1  2  3
+ 7  8  9 10 11 12 13       4  5  6  7  8  9 10       4  5  6  7  8  9 10
+14 15 16 17 18 19 20      11 12 13 14 15 16 17      11 12 13 14 15 16 17
+21 22 23 24 25 26 27      18 19 20 21 22 23 24      18 19 20 21 22 23 24
+28 29 30 31               25 26 27 28               25 26 27 28 29 30 31
+
+       April                      May                       June
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+ 1  2  3  4  5  6  7             1  2  3  4  5                      1  2
+ 8  9 10 11 12 13 14       6  7  8  9 10 11 12       3  4  5  6  7  8  9
+15 16 17 18 19 20 21      13 14 15 16 17 18 19      10 11 12 13 14 15 16
+22 23 24 25 26 27 28      20 21 22 23 24 25 26      17 18 19 20 21 22 23
+29 30                     27 28 29 30 31            24 25 26 27 28 29 30
+
+        July                     August                  September
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+ 1  2  3  4  5  6  7                1  2  3  4                         1
+ 8  9 10 11 12 13 14       5  6  7  8  9 10 11       2  3  4  5  6  7  8
+15 16 17 18 19 20 21      12 13 14 15 16 17 18       9 10 11 12 13 14 15
+22 23 24 25 26 27 28      19 20 21 22 23 24 25      16 17 18 19 20 21 22
+29 30 31                  26 27 28 29 30 31         23 24 25 26 27 28 29
+                                                    30
+
+      October                   November                  December
+Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su      Mo Tu We Th Fr Sa Su
+    1  2  3  4  5  6                   1  2  3                         1
+ 7  8  9 10 11 12 13       4  5  6  7  8  9 10       2  3  4  5  6  7  8
+14 15 16 17 18 19 20      11 12 13 14 15 16 17       9 10 11 12 13 14 15
+21 22 23 24 25 26 27      18 19 20 21 22 23 24      16 17 18 19 20 21 22
+28 29 30 31               25 26 27 28 29 30         23 24 25 26 27 28 29
+                                                    30 31
+
+Traceback (most recent call last):
+  File "bangalore.py", line 24, in <module>
+    import holidays 
+ModuleNotFoundError: No module named 'holidays'
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Traceback (most recent call last):
+  File "bangalore.py", line 19, in <module>
+    import holidays 
+ModuleNotFoundError: No module named 'holidays'
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Traceback (most recent call last):
+  File "bangalore.py", line 25, in <module>
+    import holidays
+ModuleNotFoundError: No module named 'holidays'
+dl320@soetcse:~/calendarpalanner$ pip3 install holidays
+Collecting holidays
+  Downloading https://files.pythonhosted.org/packages/cc/da/7d0642a8b94ea413fc7005f4538c01475a45b420d705f57481752552ac55/holidays-0.9.8.tar.gz (64kB)
+    100% |████████████████████████████████| 71kB 140kB/s 
+Collecting python-dateutil (from holidays)
+  Using cached https://files.pythonhosted.org/packages/74/68/d87d9b36af36f44254a8d512cbfc48369103a3b9e474be9bdfe536abfc45/python_dateutil-2.7.5-py2.py3-none-any.whl
+Collecting six (from holidays)
+  Using cached https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Building wheels for collected packages: holidays
+  Running setup.py bdist_wheel for holidays ... done
+  Stored in directory: /home/dl320/.cache/pip/wheels/6f/d2/1a/5854fb5211d237db046d9ae62674a112d020d84c40a729dd02
+Successfully built holidays
+Installing collected packages: six, python-dateutil, holidays
+Successfully installed holidays-0.9.8 python-dateutil-2.7.5 six-1.11.0
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Traceback (most recent call last):
+  File "bangalore.py", line 27, in <module>
+    india_holidays = holidays.india() 
+AttributeError: module 'holidays' has no attribute 'india'
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+(datetime.date(2019, 1, 1), 'New Year')
+(datetime.date(2019, 1, 14), 'Makar Sankranti / Pongal')
+(datetime.date(2019, 1, 26), 'Republic Day')
+(datetime.date(2019, 8, 15), 'Independence Day')
+(datetime.date(2019, 10, 2), 'Gandhi Jayanti')
+(datetime.date(2019, 5, 1), 'Labour Day')
+(datetime.date(2019, 12, 25), 'Christmas')
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+  File "bangalore.py", line 16
+    print(forecast.date)
+        ^
+IndentationError: expected an indented block
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 15, in <module>
+    for i in range(delta.days+2):
+NameError: name 'delta' is not defined
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 15, in <module>
+    delta=d_to_date -d_from_date
+NameError: name 'd_to_date' is not defined
+dl320@soetcse:~/calendarpalanner$ pip3 install -r requirements.txt
+Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+dl320@soetcse:~/calendarpalanner$ pip3 install -r requirements.txt
+Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 15, in <module>
+    d_from_date=datetime.strptime(sys.argv[2],'%y-%m-%d')
+NameError: name 'datetime' is not defined
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 17, in <module>
+    d_from_date=datetime.strptime(sys.argv[2],'%y-%m-%d')
+IndexError: list index out of range
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 17, in <module>
+    d_from_date=datetime.strptime(sys.argv[2],'%y-%m-%d')
+IndexError: list index out of range
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 17, in <module>
+    d_from_date=datetime.strptime(sys.argv[1],'%y-%m-%d')
+IndexError: list index out of range
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 17, in <module>
+    d_from_date=datetime.strptime(sys.argv[0],'%y-%m-%d')
+  File "/usr/lib/python3.6/_strptime.py", line 565, in _strptime_datetime
+    tt, fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.6/_strptime.py", line 362, in _strptime
+    (data_string, format))
+ValueError: time data 'bangalore.py' does not match format '%y-%m-%d'
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 17, in <module>
+    d_from_date=datetime.strptime(sys.argv[0])
+TypeError: strptime() takes exactly 2 arguments (1 given)
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+Traceback (most recent call last):
+  File "bangalore.py", line 17, in <module>
+    d_from_date=datetime.strptime(sys.argv[1])
+IndexError: list index out of range
+dl320@soetcse:~/calendarpalanner$ python3 bangalore.py
+Cloudy
+17 Nov 2018
+maximum temp 28 C
+minimum temp 18 C
+Cloudy
+18 Nov 2018
+maximum temp 29 C
+minimum temp 19 C
+Scattered Thunderstorms
+19 Nov 2018
+maximum temp 28 C
+minimum temp 19 C
+Cloudy
+20 Nov 2018
+maximum temp 28 C
+minimum temp 18 C
+Cloudy
+21 Nov 2018
+maximum temp 23 C
+minimum temp 17 C
+Scattered Showers
+22 Nov 2018
+maximum temp 23 C
+minimum temp 17 C
+Cloudy
+23 Nov 2018
+maximum temp 25 C
+minimum temp 18 C
+Mostly Cloudy
+24 Nov 2018
+maximum temp 26 C
+minimum temp 16 C
+Partly Cloudy
+25 Nov 2018
+maximum temp 27 C
+minimum temp 16 C
+Partly Cloudy
+26 Nov 2018
+maximum temp 26 C
+minimum temp 15 C
+
